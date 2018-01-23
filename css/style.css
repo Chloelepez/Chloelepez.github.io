@@ -43,7 +43,7 @@ img{max-width:100%;}
 .mar-tm-10{margin-top:-10px;}
 .white-col{background:#ffffff;padding:none;}
 .title-small span{position:relative;}
-.title-small span:after{content:"";position:absolute;bottom:-20px;height:3px;background:#DEDEDE;width:28px;left:0;}
+.title-small span:after{content:"";position:absolute;bottom:-20px;height:3px;background: #6195FF;width:28px;left:0;}
 .title-small-center span{position:relative;}
 .title-small-center span:after{content:"";display:block;margin:0 auto;margin-top:20px;height:3px;background:#DEDEDE;width:28px;left:0;}
 .grey-bg{background:#f6f6f6;padding:120px 0;display:block;}
@@ -246,7 +246,7 @@ ul.portfolio-image li .desc{position:absolute;z-index:1;top:45%;left:0;display:t
 #contact input:focus ~ .highlight,
 #contact textarea:focus ~ .highlight{-webkit-animation:inputHighlighter 0.3s ease;-moz-animation:inputHighlighter 0.3s ease;animation:inputHighlighter 0.3s ease;}
 #contact input[type=submit]{border:1px solid #2b2b2b !important;color:#2b2b2b;padding:10px;font-weight:700;letter-spacing:0.9px;text-transform:uppercase;transition:0.2s ease all;-moz-transition:0.2s ease all;-webkit-transition:0.2s ease all;}
-#contact input[type=submit]:hover{background:#2b2b2b;color:#ffffff;}
+#contact input[type=submit]:hover{background: #6195FF;color:#ffffff;}
 @-webkit-keyframes inputHighlighter{from{background:#5264AE;}
 to{width:0;background:transparent;}
 }
