@@ -246,7 +246,7 @@ ul.portfolio-image li .desc{position:absolute;z-index:1;top:45%;left:0;display:t
 #contact input:focus ~ .highlight,
 #contact textarea:focus ~ .highlight{-webkit-animation:inputHighlighter 0.3s ease;-moz-animation:inputHighlighter 0.3s ease;animation:inputHighlighter 0.3s ease;}
 #contact input[type=submit]{border:1px solid #2b2b2b !important;color:#2b2b2b;padding:10px;font-weight:700;letter-spacing:0.9px;text-transform:uppercase;transition:0.2s ease all;-moz-transition:0.2s ease all;-webkit-transition:0.2s ease all;}
-#contact input[type=submit]:hover{background: #6195FF;color:#ffffff;}
+#contact input[type=submit]:hover{background:#2b2b2b;color:#ffffff;}
 @-webkit-keyframes inputHighlighter{from{background:#5264AE;}
 to{width:0;background:transparent;}
 }
@@ -266,8 +266,9 @@ to{width:0;background:transparent;}
 .socials a:before{bottom:100%;display:block;height:3px;width:100%;content:"";}
 .socials a:after{padding:0.3em 0.8em;position:absolute;bottom:100%;left:0;content:attr(data-hover);color:white;white-space:nowrap;width:100%;padding:25px 0;}
 .socials li:hover a,
-<<<<<<< HEAD
-.socials .current a{transform:translateY(100%);}
+.socials .current a {
+  transform: translateY(100%);
+}
 .facebook{background:#969696;}
 .facebook a:after{background-color:#527bbb;}
 .twitter{background:#ABABAB;}
