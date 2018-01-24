@@ -19,7 +19,7 @@ ul.portfolio-image li{width:100%;padding-top:95%;}
 .portfolio-image > li{width:50%;}
 .grid-item{width:50%;}
 .bg-about{min-height:520px;}
-.wrap-about{min-height:520px;padding-bottom:10%;/* padding-left:30px; *//* padding-right:30px; */}
+.wrap-about{min-height:520px;padding-bottom:10%;padding-left: 0px;padding-right: 0px;}
 .wrap-about .head-quote{padding-top:10%;}
 .content-right{margin-top:20px;}
 .text-grey{margin-bottom:45px;}
