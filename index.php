@@ -883,7 +883,8 @@
       							$subject = "Portfolio question";
       							$subject2 = "Copy of your form submission";
       							$message = $first_name . "  wrote the following:" . "\n\n" . $_POST['message'];
-      							$message2 = "Mail Sent. Thank you for contacting me " . $first_name . ", I will contact you shortly." . "\n" ."Here is a copy of your message " . "\n\n" . $_POST['message'] . "\n\n" . "Chloé Lepez";
+      							$message2 = "Mail Sent. Thank you for contacting me " . $first_name . ", I will contact you shortly." .
+                     "\n" ."Here is a copy of your message " . "\n\n" . $_POST['message'] . "\n\n" . "Chloé Lepez";
 
       							$headers = "From:" . $from;
       							$headers2 = "From:" . $to;
