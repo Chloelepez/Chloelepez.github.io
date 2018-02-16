@@ -888,7 +888,7 @@
       							$headers2 = "From:" . $to;
       							mail($to,$subject,$message,$headers);
       							mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-      							echo "<p>Mail Sent. Thank you " . $first_name . ", I will contact you shortly.</p>";
+      							echo "<p>"Mail Sent. Thank you " . $first_name . ", I will contact you shortly."</p>";
       							}
       					?>
 
@@ -904,7 +904,6 @@
                   </div>
                   <input id="sendMessage" type="submit" value="Submit" name="submit">
                 </form>
-
               </div>
             </div>
           </div>
