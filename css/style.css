@@ -296,7 +296,7 @@ to{width:0;background:transparent;}
 .twitter a:after{background-color:#77ccf1;}
 .gplus{background:#d8d8d8;}
 .gplus a:after{background:#0073b1;;}
-.footer-bottom{width:100%;background: #0089ff;padding:20px 0;color:#636363;}
+.footer-bottom{width:100%;/* background: #0089ff; */padding:20px 0;color:#636363;background-image: linear-gradient(-135deg,#085078,#85d8ce, #085078);}
 .skillst{margin-top:30px;}
 .skillst .skillbar{width:100%;height:10px;background-color:#f6f6f6;position:relative;margin-bottom:60px;padding:2px;box-sizing:border-box;}
 .skillst .count-bar{width:100%;height:5px;width:0px;position:relative;}
